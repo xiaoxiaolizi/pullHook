@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="pullHook">
+<!---2.注册模块 ngApp指令：用来指定一个AngularJS应用的范围，同时也是ng应用自动载入并启动的。--->
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/pullHook.css"/>
+
+</head>
+<!-----4.使用控制器------->
+<body ng-controller="parentCtrl">
+
+<!--定义盛放代码片段的容器-->
+<div ng-view></div>
+
+
+<script src="js/angular.js"></script>
+<script src="js/angular-route.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/pullHook.js"></script>
+</body>
+</html>

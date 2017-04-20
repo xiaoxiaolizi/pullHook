@@ -1,0 +1,39 @@
+<div>
+    <div class="login">
+       <div class="maskLayer">
+           <p class="lookAround"><a href="#" class="pull-right">随便逛逛 > </a></p>
+           <div class="logos">
+               <img src="img/logo-green-1.png" alt="" class="img-responsive center-block"/>
+               <img src="img/logo-green-2.png" alt="" class="img-responsive center-block"/>
+           </div>
+           <form class="login-form">
+               <div class="group-form">
+                   <label ng-class="{true:'focusLabel',false:'defalut'}[className]">
+                       <span></span>
+                   </label>
+                   <input type="text" placeholder="请输入已验证的手机号和邮箱" autocomplete="off" ng-focus="change()" ng-blur="noChange()" ng-change="change()" autofocus ng-model="no"/>
+               </div>
+               <div class="group-form">
+                   <label ng-class="{true:'focusLabel',false:'defalut'}[className2]">
+                       <span class="glyphicon glyphicon-lock"></span>
+                   </label>
+                   <input type="password" placeholder="请输入密码" autocomplete="off" ng-focus="change2()" ng-blur="noChange2()" ng-change="change()" ng-model="pw"/>
+               </div>
+               <div class="group-form">
+                  <p class="pull-right"> <span>？</span><a href="#">忘记密码</a></p>
+               </div>
+               <div class="group-form">
+                   <button  class="btn btn-block" ng-click="jumpTo()" ng-disabled="checked">登录</button>
+                   <a href="#/register" class="btn btn-block">快速注册，发现职场新机会</a>
+               </div>
+           </form>
+       </div>
+    </div>
+
+   <!-- <div ng-hide="myTip" class="ng-hide tipBox">
+        <p>{{tip}}</p>
+    </div>-->
+</div>
+
+
+

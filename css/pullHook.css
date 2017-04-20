@@ -1,0 +1,934 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    background:#F0F1F5;
+    overflow:auto;
+}
+ul,ol,li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.all-container{
+    margin-bottom:160px;
+}
+/***************开始页面的样式开始***********************/
+.start{
+    width:100%;
+    height:100%;
+}
+.start .logos{
+  margin-top:40%;
+}
+.start .logos img:first-child{
+    width:30%;
+}
+.start .logos img:last-child{
+    width:20%;
+    margin-top:8%;
+}
+.start p{
+    font-size:5rem;
+    margin-top:8%;
+    color:#7E7E7E;
+}
+/***************开始页面的样式结束***********************/
+
+
+/***************登录页面的样式开始***********************/
+.login{
+    width:100%;
+    height:100%;
+    background:url('../img/timg.jpg') no-repeat;
+    background-size:cover;
+    position:fixed;
+}
+.maskLayer{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+}
+.lookAround{
+    overflow:hidden;
+    font-size:4rem;
+    padding:5% 0;
+}
+.lookAround a{
+    color:#888685;
+    margin-right:1%;
+}
+.maskLayer .logos{
+    margin-top:10%;
+}
+.maskLayer img:first-child{
+    width:25%;
+}
+.maskLayer img:last-child{
+    width:20%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.login-form{
+    width:100%;
+    margin-bottom:50%;
+}
+.group-form{
+    width:92%;
+    margin:auto;
+    overflow:hidden;
+}
+.group-form label{
+    width:16%;
+    height:125px;
+    line-height:125px;
+    background:rgba(0,0,0,0.2);
+    text-align:center;
+    float:left;
+}
+.group-form label.defalut span{
+    color:#5D5D5D;
+    font-size:4rem;
+    margin-top:28%;
+}
+.group-form label.focusLabel  span{
+    color:#0A9A78;
+    font-size:4rem;
+    margin-top:28%;
+}
+.group-form:first-child label.defalut span{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background:url('../img/mobile/icon2.png') no-repeat -104px 0px;
+    zoom:1.6;
+    margin-top:18%;
+
+}
+.group-form:first-child label.focusLabel span{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background:url('../img/mobile/icon2.png') no-repeat -100px -40px;
+    zoom:1.6;
+    margin-top:23.5%;
+    margin-right:7%;
+}
+.group-form input{
+    width:83%;
+    height:125px;
+    line-height:125px;
+    float:left;
+    background:rgba(0,0,0,0.1);
+    font-size:4rem;
+    border:0;
+    padding:2%;
+    color:#fff;
+}
+.login-form .group-form:first-child{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.login-form .group-form:nth-child(2){
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.login-form .group-form input:-webkit-autofill{
+    background:rgba(0,0,0,0);
+    color:#5F5F5D;
+}
+::-webkit-input-placeholder{
+    background:rgba(0,0,0,0);
+    color:#5F5F5D;
+}
+.group-form input:-moz-placeholder{
+    background:rgba(0,0,0,0);
+    color:#5F5F5D;
+}
+.group-form input::-moz-placeholder{
+    background:rgba(0,0,0,0);
+    color:#5F5F5D;
+}
+.group-form input::-webkit-input-placeholder{
+    background:rgba(0,0,0,0);
+    color:#5F5F5D;
+}
+.group-form input:-ms-input-placeholder{
+    background:rgba(0,0,0,0);
+    color:#5F5F5D;
+}
+.group-form p{
+    font-size:4rem;
+    color:#6B6966;
+    width:240px;
+    margin:3% 0;
+    margin-bottom:6%;
+}
+.group-form p span{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border:1px solid #6B6966;
+    border-radius:50%;
+    text-align:center;
+    margin-right:5%;
+    margin-top:3%;
+    background:rgba(0,0,0,0.1);
+}
+.group-form a{
+    font-size:4rem;
+    color:#BBBBBB;
+}
+.group-form:last-child button{
+    font-size:4rem;
+    height:120px;
+    line-height:120px;
+    background:#0A9A78;
+    color:#fff;
+}
+.group-form:last-child a{
+    font-size:4rem;
+    height:120px;
+    line-height:120px;
+    background:rgba(0,179,168,0.1);
+    color:#0A9A78;
+    border:1px solid #0A9A78;
+    margin-top:5%;
+
+}
+
+.tipBox{
+    position:absolute;
+    width:80%;
+    height:120px;
+    font-size:4rem;
+    background:#fff;
+    color:#0A9A78;
+    left:50%;
+    top:50%;
+    margin-top:-60px;
+    margin-left:-40%;
+    border-radius:5px;
+    text-align:center;
+    line-height:120px;
+}
+/***************登录页面的样式结束***********************/
+
+
+/***************首页的样式开始***********************/
+.main .search{
+    width:100%;
+    height:160px;
+    background:#0A9A78;
+}
+.search div{
+    width:85%;
+    margin:3% auto;
+    height:100px;
+    line-height:100px;
+    background:#fff;
+    text-align:center;
+    font-size:3.7rem;
+    border-radius:50px;
+    background:#09A37E;
+}
+.search div p{
+    width:48%;
+    margin:auto;
+    overflow:hidden;
+    color:#fff;
+}
+.search div span{
+    float:left;
+}
+.search div b{
+    float:left;
+    width:40px;
+    height:40px;
+    background:url('../img/mobile/icon.png') no-repeat -24px 2px;
+    zoom:1.5;
+    margin-top:3%;
+    margin-right:3%;
+}
+.rec{
+    margin-top:160px;
+    font-size:4rem;
+    padding:3% 0;
+    padding-left:3%;
+    font-weight: bold;
+    background:#fff;
+    margin-bottom:0;
+    border-bottom:1px solid #F3F3F3;
+}
+.list-group-item{
+    border:0;
+}
+.list-group{
+    margin-bottom:0;
+}
+.list-group .media-body{
+    padding-left:2%;
+    padding-bottom:2%;
+    border-bottom:1px solid #F3F3F3;
+    padding-right:2%;
+}
+.list-group .media-body p{
+    font-size:4rem;
+    overflow:hidden;
+}
+.list-group .media-body .info1 .title{
+    width:80%;
+    font-size:4.5rem;
+    font-weight: bold;
+}
+.list-group .media-body .info1 .title img{
+    width:10%;
+}
+.list-group .media-body .info1 .salary{
+    color:red;
+}
+.list-group .media-body .info2{
+    font-size:3.5rem;
+    overflow:hidden;
+    color:#B4B4B4;
+}
+/***************首页的样式结束***********************/
+
+
+
+/***************消息的样式开始***********************/
+.message{
+    background:#F0F1F5;
+    height:100%;
+    width:100%;
+}
+.message-header{
+    width:100%;
+    height:160px;
+    line-height:160px;
+    text-align:center;
+    font-size:5.5rem;
+    border-bottom:1px solid #E8E9EB;
+    color:#333333;
+    background:#fff;
+}
+.comment{
+    width:100%;
+    margin-top:160px;
+    font-size:4.2rem;
+    overflow:hidden;
+    padding:3% 0;
+    border-bottom:1px solid #E8E9EB;
+    background:#fff;
+    margin-bottom:0;
+}
+.comment img{
+    width:8%;
+    padding-left:2%;
+}
+.comment span{
+    padding-left:2%;
+}
+.comment b{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    background:url('../img/mobile/icon2.png') no-repeat -137px 0px;
+    zoom:1.8;
+}
+.state{
+    width:100%;
+    padding:4% 0;
+    background:#fff;
+}
+.state .thumbnail{
+    border:0;
+}
+.state .thumbnail .icons{
+    width:120px;
+    height:120px;
+    line-height:170px;
+    margin:auto;
+    background:#FFBB00;
+    border-radius:50%;
+}
+.state .caption h3{
+    font-size:4rem;
+    color:#C4C4C4;
+}
+.state .thumbnail .icons span{
+    color:#fff;
+    font-size:6rem;
+}
+.state .row>div:nth-child(2) .thumbnail .icons{
+    background:#FF724A;
+}
+
+.state .row>div:nth-child(3) .thumbnail .icons{
+    background:#00B589;
+}
+.list-items{
+    margin-top:2%;
+}
+.IC{
+    font-size:6rem;
+    width:130px;
+    height:130px;
+    line-height:130px;
+    border-radius:50%;
+    background:#3894E9;
+    text-align:center;
+    color:#fff;
+}
+.detail-info{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+
+}
+.hook-icon{
+    background:#00B38A;
+}
+/***************消息的样式结束***********************/
+
+
+
+/***************言职的样式开始***********************/
+.hot{
+    background:#FF724A;
+    color:#fff;
+    padding:.5%;
+    border-radius:3px;
+}
+.said .carousel{
+    margin-top:160px;
+}
+.said .carousel .carousel-inner .item img{
+    width:100%;
+}
+
+.detail-list{
+    margin-top:2%;
+    background:#fff;
+    font-size:4rem;
+    padding:0 2%;
+}
+.detail-list .info img{
+    width:10%;
+    border-radius:50%;
+}
+.detail-list .info{
+    color:#B5B5B5;
+    overflow:hidden;
+}
+.detail-list .info P:first-child{
+    width:85%;
+}
+.detail-list .info .name{
+    color:#333;
+    padding-left:2%;
+}
+.detail-list .from{
+    padding:4% 0;
+    color:#B5B5B5;
+    margin-bottom:0;
+}
+.detail-list .from span{
+    color:#333;
+}
+.detail-list .title{
+    font-size:5rem;
+    margin:0;
+    padding-bottom:4%;
+    font-weight: bold;
+}
+.content{
+    margin:5% 0;
+    display:-webkit-box !important;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    word-break:break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    color:#9C9C9C;
+}
+.comments P{
+    width:200px;
+    color:#9C9C9C;
+}
+.comments P:last-child{
+    padding-left:2%;
+}
+.comments P .num{
+    padding-left:5%;
+}
+
+/***************言职的样式结束***********************/
+
+
+
+
+
+
+
+/***************我的样式开始***********************/
+.mine-header{
+    background:#00B38A;
+    height:500px;
+    text-align:center;
+    font-size:4rem;
+    color:#fff;
+}
+.mine-header>div{
+    overflow:hidden;
+    padding:2%;
+}
+.mine-header>div>p{
+    padding-right:2%;
+    background:#007B5E;
+    border-radius:50px;
+    color:#fff;
+    width:200px;
+    height:80px;
+    line-height:80px;
+}
+.mine-header>p{
+    width:100%;
+    font-size:5rem;
+}
+.mine-header img{
+    width:20%;
+    border-radius:50%;
+}
+.mine-header p:last-child{
+    margin-top:2%;
+}
+.mine .list-group .pull-right{
+    color:#E6E6E6;
+    font-size:4rem;
+}
+.mine .list-group .pull-right>span{
+    color:#49C9AC;
+}
+.list-group .list-group-item{
+    padding:5% 3%;
+    font-size:4.5rem;
+    color:#333;
+    border:1px solid #F6F6F7;
+}
+.list-group .badge{
+    font-size:4rem;
+}
+.ico{
+    padding-right:2%;
+    color:#7E7E7E;
+}
+.list-group2{
+    margin-top:2%;
+}
+/***************我的样式结束***********************/
+
+
+
+
+
+
+
+
+
+
+/***************详情样式开始***********************/
+.detail-header{
+    width:100%;
+    height:160px;
+    line-height:160px;
+    text-align:center;
+    font-size:5.5rem;
+    border-bottom:1px solid #E8E9EB;
+    color:#333333;
+    background:#F7F7F8;
+}
+.detail-header>div{
+    width:33%;
+    text-align:left;
+    margin-left:2%;
+    color:#616161;
+}
+.detail-header b{
+    width:40px;
+    height:40px;
+    background:url('../img/mobile/icon.png') no-repeat -24px 2px;
+    zoom:1.5;
+    margin-top:3%;
+    margin-right:3%;
+}
+.detail-container{
+    height:100%;
+    margin-bottom:160px;
+    font-size:4rem;
+}
+.detail .navbar-footer-menu{
+    background:#fff;
+}
+.navbar-footer-menu button{
+    float:left;
+    height:100px;
+    font-size:4rem;
+}
+.navbar-footer-menu button:first-child{
+    width:40%;
+    margin:0 5%;
+    border-color:#4AC9AC;
+    color:#4AC9AC;
+    margin-top:20px;
+}
+.navbar-footer-menu button:last-child{
+    width:48%;
+    margin-top:20px;
+}
+.detail-intro{
+    background:#fff;
+    width:100%;
+    font-size:4rem;
+    margin-bottom:2%;
+}
+.detail-intro h2{
+    margin:0;
+    font-size:5.8rem;
+    overflow:hidden;
+    width:100%;
+    padding:5% 0;
+    padding-left:2%;
+}
+.detail-intro .job-intro{
+    width:100%;
+    overflow:hidden;
+    padding-left:2%;
+    padding-bottom:2%;
+}
+.detail-intro .job-intro span{
+    float:left;
+    width:25%;
+    font-size:4.8rem;
+}
+.detail-intro .job-intro span b{
+    display:inline-block;
+    width:35px;
+    height:40px;
+    background:url('../img/mobile/icon.png') no-repeat -150px -80px;
+    zoom:1.8;
+    margin-top:3%;
+    margin-right:3%;
+}
+.detail-intro .job-intro span:nth-child(2) b{
+    background-position-x: -180px;
+}
+.detail-intro .job-intro span:nth-child(3) b{
+    background-position-x: -210px;
+}
+.detail-intro .job-intro span:nth-child(4) b{
+    background-position-x: -250px;
+}
+.detail-intro h2 span{
+    color:red;
+    font-size:5rem;
+}
+.lure{
+    padding-top:2%;
+    padding-bottom:5%;
+    padding-left:2%;
+    color:#AEAEAE;
+    font-size:4.5rem;
+    border-bottom:1px solid #FCFCFC;
+}
+
+.job-description{
+    width:100%;
+    background:#fff;
+    margin-bottom:2%;
+}
+.job-description h2{
+    padding:5%;
+    font-size:4.5rem;
+    border-bottom:1px solid #ccc;
+}
+.job-description h2 b{
+    color:#858585;
+    padding-right:2%;
+
+}
+.key-words{
+    width:100%;
+    font-size:4rem;
+}
+.key-words span{
+    margin:2%;
+    display:inline-block;
+    padding:2% 4%;
+    border:1px solid #3AC5A6;
+    color:#3AC5A6;
+    border-radius:50px;
+}
+.description{
+    font-size:4rem;
+    padding:2%;
+}
+
+.job-add{
+    margin-top:2%;
+    background:#fff;
+}
+.job-add p{
+    font-size:4rem;
+    padding:4% 2%;
+    overflow:hidden;
+    border-bottom:1px solid #ccc;
+}
+.job-add p b{
+    color:#3AC5A6;
+    font-size:4.5rem;
+    margin-right:8%;
+    margin-top:2%;
+}
+.job-add p:first-child span:first-child{
+    width:300px;
+    padding:1% 4%;
+}
+.job-add p:first-child span:last-child{
+    background:#FFBA0C;
+    padding:1% 4%;
+    color:#fff;
+    border-radius:50px;
+}
+.job-add p:last-child {
+    color: #9E9E9E;
+    padding: 4% 2%;
+}
+.job-publisher{
+    background:#fff;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.job-publisher>p:first-child{
+    padding:4% 6%;
+    border-bottom:1px solid #ccc;
+}
+.job-publisher p b{
+    color:#B285B2;
+    margin-right:4%;
+    margin-top:2%;
+    font-size:4.5rem;
+}
+.publisher{
+   width:100%;
+    overflow:hidden;
+}
+.publisher img{
+    width:80%;
+}
+.publisher>div{
+    overflow:hidden;
+    width:50%;
+}
+.publisher>div>p{
+    width:50%;
+    padding:0 2%;
+}
+.publisher>div:first-child>p span{
+    display: inline-block;
+    width:100%;
+}
+.publisher>div>p span:first-child{
+    font-size:7rem;
+}
+.publisher>div:last-child p{
+    width:100%;
+}
+.publisher>div:last-child b{
+    background:#CCCCCC;
+    color:#fff;
+    border-radius:50%;
+    padding:2%;
+    font-size:4rem;
+}
+.evaluate{
+    width:100%;
+    overflow:hidden;
+}
+.evaluate span{
+    float:left;
+    padding:2%;
+    margin:4% 2%;
+    background:#F0FAF7;
+    color:#3AC5A6;
+}
+/***************详情样式结束***********************/
+
+
+
+
+
+
+
+/***************搜索样式开始***********************/
+.searches{
+    font-size:4rem;
+}
+.search-top{
+    width:100%;
+    height:160px;
+    line-height:160px;
+    overflow:hidden;
+    background:#F7F7F8;
+}
+.search-top>p{
+    margin:0 2%;
+}
+.search-top>div{
+    width:69%;
+    position:relative;
+}
+.search-top>div>span{
+    position: absolute;
+    display: inline-block;
+    width:40px;
+    height:40px;
+    top:30px;
+    left:20px;
+    background:url('../img/mobile/icon.png') no-repeat -24px 2px;
+    zoom:1.5;
+}
+.search-top input{
+    width:100%;
+    height:100px;
+    line-height:100px;
+    margin:3% 1%;
+    border-radius:50px;
+    background:#E7E8EA;
+    border:0;
+    padding-left:95px;
+}
+.search-top input::-webkit-input-placeholder{
+    color:#C5C5C6;
+}
+.search-top>span{
+    padding:0 2%;
+}
+
+.guess{
+    padding:5% 2%;
+}
+.guess p{
+    width:100%;
+    overflow:hidden;
+    padding:2% 0;
+}
+.guess p span{
+    float:left;
+    padding:2% 3%;
+    margin:1% 2%;
+    background:#fff;
+    color:#3AC5A6;
+    border:1px solid #E3E5EA;
+    border-radius:50px;
+}
+.searches .list-group{
+    color:#333;
+}
+.searches .list-group li span{
+    color:#DADBDD;
+}
+.searches .list-group li span:first-child{
+    display: inline-block;
+    margin-top:1%;
+    margin-right:2%;
+}
+/***************搜索样式结束***********************/
+
+
+
+
+
+
+
+
+
+
+/***************通用底部的样式开始***********************/
+.navbar-footer-menu{
+    width:100%;
+    height:160px;
+    overflow:hidden;
+}
+.navbar-footer-menu li{
+    float:left;
+    width:25%;
+    font-size:3rem;
+    text-align:center;
+}
+.navbar-footer-menu li p{
+    float:left;
+    width:100%;
+    height:100%;
+    color:#A7A7A7;
+}
+.navbar-footer-menu li.active p{
+    color:#0A9A78;
+}
+.navbar-footer-menu li p b{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background:url('../img/mobile/icon.png') no-repeat;
+    zoom:1.6;
+    margin-top:14%;
+}
+
+.navbar-footer-menu li:first-child p b{
+    background-position:-63px 0px;
+}
+.navbar-footer-menu li:nth-child(2) p b{
+    background:url('../img/mobile/feedback_776e64f.png') no-repeat 5px 9px;
+    zoom:1.8;
+    margin-top:12%;
+}
+.navbar-footer-menu li:nth-child(3) p b{
+    background-position:-24px 0px;
+}
+.navbar-footer-menu li:last-child p b{
+    background-position:-100px 0px;
+}
+.navbar-footer-menu li p span{
+    display:inline-block;
+    width:100%;
+}
+
+.navbar-footer-menu li.active p b{
+    background-position-y: -38px;
+}
+.navbar-footer-menu li.active:nth-child(2) p b{
+    background-position-y: -28px;
+}
+/****************通用底部的样式结束***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
